@@ -55,7 +55,8 @@ class MainActivity : ComponentActivity() {
                             onDispose {
                                 lifecycleOwner.lifecycle.removeObserver(observer)
                             }
-                    })
+                    }
+                    )
 
                     Column(
                         modifier = Modifier.fillMaxSize(),
